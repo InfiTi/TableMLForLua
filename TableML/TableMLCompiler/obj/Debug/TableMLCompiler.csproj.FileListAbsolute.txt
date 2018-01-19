@@ -1,0 +1,12 @@
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\TableMLCompiler.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\TableMLCompiler.pdb
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\DotLiquid.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\NPOI.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\NPOI.OOXML.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\NPOI.OpenXml4Net.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\bin\Debug\NPOI.xml
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\obj\Debug\TableMLCompiler.csprojResolveAssemblyReference.cache
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\obj\Debug\TableMLCompiler.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableMLCompiler\obj\Debug\TableMLCompiler.pdb

@@ -1,0 +1,5 @@
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\bin\Release\TableML.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\bin\Release\TableML.pdb
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\obj\Release\TableML.csprojResolveAssemblyReference.cache
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\obj\Release\TableML.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\obj\Release\TableML.pdb

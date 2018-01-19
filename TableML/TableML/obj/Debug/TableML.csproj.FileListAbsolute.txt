@@ -1,0 +1,4 @@
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\bin\Debug\TableML.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\bin\Debug\TableML.pdb
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\obj\Debug\TableML.dll
+C:\workspace\proj\GitHub\TableML-zhao\TableML\TableML\obj\Debug\TableML.pdb
