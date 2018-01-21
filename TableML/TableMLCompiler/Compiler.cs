@@ -162,6 +162,8 @@ namespace TableML.Compiler
             return Compile(path, outputPath);
         }
 
+
+
         /// <summary>
         /// Compile a setting file, return a hash for template
         /// </summary>
@@ -186,6 +188,18 @@ namespace TableML.Compiler
             var hash = DoCompilerExcelReader(path, sourceFile, compileToFilePath, compileBaseDir, doRealCompile);
             return hash;
 
+        }
+
+        public List<TableCompileResult> Compile(string compileToFilePath, List<string> paths, string compileBaseDir = null, bool doRealCompile = true)
+        {
+            var lts = new List<TableCompileResult>();
+
+            foreach (var path in paths)
+            {
+                lts.Add(Compile(path, compileToFilePath, compileBaseDir, doRealCompile));
+            }
+
+            return lts;
         }
     }
 }

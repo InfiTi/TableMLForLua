@@ -167,15 +167,14 @@ namespace TableMLGUI
                     continue;
                 }
                 Console.WriteLine(filePath);
-                List<string> savePath = new List<string>();
+                List<string> savePaths = new List<string>();
                 var ext = Path.GetExtension(filePath).Trim().ToLower();
                 if (ext == ".xls" || ext == ".xlsx")
                 {
                     var sheetNameList = SimpleExcelFile.getOutFileNameList(filePath);
                     for(int idx = 0; idx < sheetNameList.Count; idx ++)
                     {
-                        savePath.Add(GenTmlPath + "\\" + sheetNameList[idx] + tmlExtensions);
-
+                        savePaths.Add(GenTmlPath + "\\" + sheetNameList[idx] + tmlExtensions);
                     }
                 }
                 else
@@ -183,14 +182,14 @@ namespace TableMLGUI
                     continue;
                 }
                 //编译表时，生成代码
-                TableCompileResult compileResult = compiler.Compile(filePath, savePath);
-                tmlList.Add(Path.GetFullPath(savePath));
-                var dstFileName = Path.GetFileNameWithoutExtension(savePath);
-                if (dst2src.ContainsKey(dstFileName) == false)
-                {
-                    dst2src.Add(dstFileName, Path.GetFileName(filePath));
-                }
-                Console.WriteLine("编译结果:{0}---->{1}", filePath, savePath);
+                List<TableCompileResult> compileResult = compiler.Compile(filePath, savePaths);
+                //tmlList.Add(Path.GetFullPath(savePaths));
+                //var dstFileName = Path.GetFileNameWithoutExtension(savePaths);
+                //if (dst2src.ContainsKey(dstFileName) == false)
+                //{
+                //    dst2src.Add(dstFileName, Path.GetFileName(filePath));
+                //}
+                Console.WriteLine("编译结果:{0}---->{1}", filePath, savePaths);
                 Console.WriteLine();
 
                 //生成代码
